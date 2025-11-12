@@ -1,0 +1,126 @@
+site_name: RiWiki
+site_url: https://sitename.example
+site_author: rivzor
+site_description: Личная база знаний о всём, что связанно с ПК
+
+
+theme:
+  name: material
+  language: ru
+
+  palette:
+    # Темная тема
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: black
+      accent: teal
+
+    # Светлая тема
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: teal
+      accent: light blue
+
+  # Шрифты    
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+  # Логотип / Иконка
+  icon:
+    logo: material/pine-tree-variant-outline
+    tag:
+      win: fontawesome/brands/windows
+
+  favicon: assets/imgs/pine-tree-variant-outline.svg
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.path
+    - navigation.indexes
+    - navigation.prune
+    - navigation.top
+    - navigation.expand
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.share
+    - header.autohide
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+
+
+nav:
+  - Главная:
+    - index.md
+
+  - ✨ Всё о Windows: 
+    - Установка Винды: guides/windows/install.md
+    - Скачать Windows/Office: guides/windows/download_iso.md
+    - ⚙️ Оптимизация: 
+      - Базовые настройки: guides/windows/optimization.md
+      - Файл автоответов: guides/windows/autounattend.md
+
+  - Полезности:
+    #- guides/hacks/hacks.md
+    - Правильный AdBlock в браузерах: guides/hacks/adblock.md
+
+plugins:
+  - search
+  - tags
+  - glightbox
+  - meta
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+extra:
+  consent:
+    title: Согласие на Куки
+    description: >- 
+      Мы используем файлы cookie, чтобы узнавать ваши повторные визиты и предпочтения, 
+      а также чтобы оценивать эффективность нашей документации и выяснять, находят ли пользователи то, что ищут. 
+      С вашего согласия вы помогаете нам делать нашу документацию лучше.
+  
+  tags:
+    windows: win
+
+  generator: false
+  social:
+    - icon: simple/github 
+      link: https://github.com/rivzor
+    - icon: simple/telegram
+      link: https://t.me/rivzor
+    - icon: simple/maildotru
+      link: mailto:i@rivzor.ru
+
+
+# copyright: Copyright &copy; 2025 rivzor
+
+watch:
+  - docs/
