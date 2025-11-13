@@ -1,12 +1,14 @@
 ---
-date: 
-    created: 2025-11-13
-authors:
-  - rivzor
+title: Установка Windows с помощью Rufus
+description: Эта инструкция охватывает правильную установку Windows (10/11) с нуля с использованием Rufus.
+date: 2025-11-13
+authors: rivzor
 tags:
     - винда
     - гайд
     - установка винды
+
+comments: true
 ---
 # Установка Windows с помощью Rufus
 
@@ -24,7 +26,7 @@ tags:
 [Скачать желаемый образ](download_iso.md){ .md-button }
 
 ## Скачать Rufus
-[:material-download: Скачать Rufus](https://github.com/pbatard/rufus/releases/download/v4.11/rufus-4.11.exe)
+[:material-download: Скачать Rufus](docs/guides/software/top10/rufus.md)
 
 
 ## Шаг 2: Создание загрузочной USB

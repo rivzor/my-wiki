@@ -7,23 +7,24 @@ site_description: Личная база знаний о всём, что свя�
 theme:
   name: material
   language: ru
+  custom_dir: docs/overrides/
 
   palette:
     # Темная тема
-    - scheme: slate
+    - scheme: default 
       toggle:
-        icon: material/weather-sunny
+        icon: fontawesome/solid/toggle-off
         name: Dark mode
-      primary: black
-      accent: teal
+      primary: custom
+      accent: custom
 
     # Светлая тема
-    - scheme: default
+    - scheme: slate
       toggle:
-        icon: material/weather-night
+        icon: fontawesome/solid/toggle-on
         name: Light mode
-      primary: teal
-      accent: light blue
+      primary: custom
+      accent: custom
 
   # Шрифты    
   font:
@@ -32,7 +33,8 @@ theme:
 
   # Логотип / Иконка
   icon:
-    logo: material/pine-tree-variant-outline
+    logo: material/alien
+    
     tag:
       win: fontawesome/brands/windows
 
@@ -60,25 +62,35 @@ theme:
 
 
 nav:
-  - Главная:
-    - index.md
+  - Главная: index.md
 
-  - ✨ Всё о Windows: 
+  - Всё о Windows: 
+    - guides/windows/index.md
     - Установка Винды: guides/windows/install.md
     - Скачать Windows/Office: guides/windows/download_iso.md
-    - ⚙️ Оптимизация: 
+    - Оптимизация: 
       - Базовые настройки: guides/windows/optimization.md
       - Файл автоответов: guides/windows/autounattend.md
 
-  - Полезности:
-    #- guides/hacks/hacks.md
+  - Интернет:
+    - guides/internet/index.md
+
+  - Гайды:
+    - guides/hacks/index.md
     - Правильный AdBlock в браузерах: guides/hacks/adblock.md
+
+  - Программы:
+    - guides/software/index.md
+    - Топ-10 полезных:
+      - Rufus: guides/software/top10/rufus.md
+
 
 plugins:
   - search
   - tags
   - glightbox
   - meta
+  
 
 markdown_extensions:
   - attr_list
@@ -87,6 +99,9 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:
@@ -98,6 +113,14 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+extra_css:
+  - stylesheets/extra.css
 
 extra:
   consent:

@@ -9,7 +9,7 @@ date:
     created: 2025-11-13
 author: rivzor
 icon: material/shield-check
-
+comments: true
 ---
 
 # Гайд по блокировке рекламы в браузерах

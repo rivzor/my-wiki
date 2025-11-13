@@ -1,4 +1,14 @@
+---
+title: Скачать Windows/Office
+description: Скачать любой доступный образ винды или офиса
+date: 2025-11-13
+authors: rivzor
+tags:
+    - винда
+    - офис
 
+comments: true
+---
 # Скачать образ Windows
 
 !!! tip "Скачать Windows"
