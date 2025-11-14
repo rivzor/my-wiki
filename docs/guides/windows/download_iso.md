@@ -1,15 +1,27 @@
 ---
 title: Скачать Windows/Office
 description: Скачать любой доступный образ винды или офиса
-date: 2025-11-13
-authors: rivzor
+date: 
+    created: 2025-11-13
+author: rivzor
+icon: fontawesome/solid/download
+comments: true
 tags:
     - винда
     - офис
-
-comments: true
+    - iso
+hide:
+    - toc
 ---
+
 # Скачать образ Windows
+
+!!! info "Информация"
+    Все ниже представленные образы являются официальными
+
+---
+
+## Скачать Windows
 
 !!! tip "Скачать Windows"
     

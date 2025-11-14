@@ -1,5 +1,5 @@
 site_name: RiWiki
-site_url: https://sitename.example
+site_url: https://rivzor.github.io/my-wiki/
 site_author: rivzor
 site_description: Личная база знаний о всём, что связанно с ПК
 
@@ -11,18 +11,18 @@ theme:
 
   palette:
     # Темная тема
-    - scheme: default 
-      toggle:
-        icon: fontawesome/solid/toggle-off
-        name: Dark mode
-      primary: custom
-      accent: custom
-
-    # Светлая тема
     - scheme: slate
       toggle:
         icon: fontawesome/solid/toggle-on
         name: Light mode
+      primary: custom
+      accent: custom
+
+    # Светлая тема
+    - scheme: default
+      toggle:
+        icon: fontawesome/solid/toggle-off
+        name: Dark mode
       primary: custom
       accent: custom
 
@@ -43,9 +43,10 @@ theme:
   features:
     - navigation.instant
     - navigation.instant.progress
+    - navigation.instant.prefetch
     - navigation.tracking
-    - navigation.tabs
     - navigation.sections
+    - navigation.tabs
     - navigation.path
     - navigation.indexes
     - navigation.prune
@@ -68,19 +69,17 @@ nav:
     - guides/windows/index.md
     - Установка Винды: guides/windows/install.md
     - Скачать Windows/Office: guides/windows/download_iso.md
+    - Активировать: guides/windows/activation.md
     - Оптимизация: 
-      - Базовые настройки: guides/windows/optimization.md
+      - Базовая оптимизация: guides/windows/optimization.md
       - Файл автоответов: guides/windows/autounattend.md
 
-  - Интернет:
-    - guides/internet/index.md
-
   - Гайды:
-    - guides/hacks/index.md
+    # - guides/hacks/index.md
     - Правильный AdBlock в браузерах: guides/hacks/adblock.md
 
   - Программы:
-    - guides/software/index.md
+    # - guides/software/index.md
     - Топ-10 полезных:
       - Rufus: guides/software/top10/rufus.md
 
@@ -93,13 +92,13 @@ plugins:
   
 
 markdown_extensions:
-  - attr_list
-  - md_in_html
-  - pymdownx.blocks.caption
+  - abbr
   - admonition
+  - attr_list
+  - def_list
+  - pymdownx.blocks.caption
   - pymdownx.details
   - pymdownx.superfences
-  - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tabbed:
@@ -118,6 +117,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - md_in_html
 
 extra_css:
   - stylesheets/extra.css

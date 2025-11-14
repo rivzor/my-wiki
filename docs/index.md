@@ -28,14 +28,6 @@ RiWiki — это личная база знаний **о софте, систе
 
     [:octicons-arrow-right-24: Открыть](guides/windows/index.md)
 
--   :material-web:{ .lg .middle } __Интернет__
-
-    ---
-
-    Браузеры, блокировка рекламы, приватность, VPN, расширения.
-
-    [:octicons-arrow-right-24: Настроить](guides/internet/index.md)
-
 -   :octicons-apps-16:{ .lg .middle } __Программы__
 
     ---
