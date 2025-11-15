@@ -10,8 +10,6 @@ tags:
     - винда
     - офис
     - iso
-hide:
-    - toc
 ---
 
 # Скачать образ Windows

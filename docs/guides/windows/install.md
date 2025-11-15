@@ -38,7 +38,7 @@ tags:
 
 [:material-download: Скачать образ Windows](download_iso.md){ .md-button .md-button--primary }
 
-[:material-usb-flash-drive: О программе Rufus](../software/top10/rufus.md){ .md-button }
+[:material-usb-flash-drive: О программе Rufus](../software/pc/rufus.md){ .md-button }
 
 ---
 

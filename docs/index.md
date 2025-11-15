@@ -26,7 +26,7 @@ RiWiki — это личная база знаний **о софте, систе
 
     Оптимизация Windows, настройка автозагрузки, чистка, ускорение.
 
-    [:octicons-arrow-right-24: Открыть](guides/windows/index.md)
+    [:octicons-arrow-right-24: Открыть](guides/windows/install.md)
 
 -   :octicons-apps-16:{ .lg .middle } __Программы__
 
@@ -34,7 +34,7 @@ RiWiki — это личная база знаний **о софте, систе
 
     Полезный софт, системные утилиты, установка и настройка.
 
-    [:octicons-arrow-right-24: Посмотреть](guides/software/index.md)
+    [:octicons-arrow-right-24: Посмотреть](guides/software/pc/rufus.md)
 
 -   :material-scale-balance:{ .lg .middle } __Гайды__
 
@@ -42,7 +42,7 @@ RiWiki — это личная база знаний **о софте, систе
 
     Инструкции, лайфхаки и статьи обо всём, что упрощает жизнь.
 
-    [:material-brain: Изучить](guides/hacks/index.md)
+    [:material-brain: Изучить](guides/hacks/adblock.md)
 
 </div>
 
@@ -53,7 +53,7 @@ RiWiki — это личная база знаний **о софте, систе
 > _Полезные статьи, которые всегда нужны под рукой_
 
 - [**Установка Windows**](guides/windows/install.md) — гайд по установке винды с помощью Rufus
-- **Оптимизация Windows 11** — отключение мусора и трекеров
+- [**Оптимизация Windows 11**](guides/windows/optimization.md) — отключение мусора и трекеров
 - [**Правильный AdBlock в браузерах**](guides/hacks/adblock.md) — настройка расширений против всей рекламы в браузере
 
 ---

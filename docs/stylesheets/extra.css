@@ -198,11 +198,25 @@
 }
 
 
+.md-nav__item--section > .md-nav > .md-nav__list > .md-nav__item:not(:nth-child) {
+  border-top: 1px solid color-mix(in srgb, var(--wp-neutral), transparent 50%);
+	padding-bottom: 4px;
+  padding-top: 4px;
+}
+
+
+.md-nav__item--section:last-child {
+	border-top: 1px solid color-mix(in srgb, var(--wp-neutral), transparent 50%);
+}
+
+
+
 /* Адаптивность: Уменьшение насыщенности и радиуса на мобильных для комфорта */
 @media screen and (max-width: 76.1875em) {
   :root {
     --wp-primary: oklch(65% 0.10 145);
     --wp-accent: oklch(60% 0.15 250);
     --wp-radius: 0.4rem; /* Меньше закруглений для мобильных */
+    overflow-x: auto
   }
 }

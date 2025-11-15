@@ -14,7 +14,7 @@ comments: true
 ---
 
 # Rufus
-![Rufus](https://img.utdstc.com/icon/dfb/617/dfb617fea19c1ab8515ad34dfdc3dc352a975899b3ee5bfb7c1e77c1ebd79237:100){ align=left }
+![Rufus](https://img.utdstc.com/icon/dfb/617/dfb617fea19c1ab8515ad34dfdc3dc352a975899b3ee5bfb7c1e77c1ebd79237:100){ align=left  width="70"}
 Rufus - это бесплатная утилита для создания загрузочных USB-носителей из ISO-образов Windows, Linux и других операционных систем.
 
 

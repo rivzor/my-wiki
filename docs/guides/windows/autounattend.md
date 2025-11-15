@@ -56,7 +56,7 @@ tags:
     
     [:material-page-next-outline: Гайд по установке Windows](install.md){ .md-button }
     
-    [:material-usb-flash-drive: О программе Rufus](../software/top10/rufus.md){ .md-button }
+    [:material-usb-flash-drive: О программе Rufus](../software/pc/rufus.md){ .md-button }
 
 2.  **Скопируйте файл:** Просто скопируйте ваш готовый файл `autounattend.xml` в **корень** созданной загрузочной USB-флешки (рядом с `setup.exe` и другими папками).
 

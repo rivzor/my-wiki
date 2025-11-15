@@ -46,8 +46,8 @@ theme:
     - navigation.instant.prefetch
     - navigation.tracking
     - navigation.sections
-    - navigation.tabs
     - navigation.path
+    - navigation.tabs
     - navigation.indexes
     - navigation.prune
     - navigation.top
@@ -63,25 +63,30 @@ theme:
 
 
 nav:
-  - Главная: index.md
-
+  - Главная: 
+    - index.md
   - Всё о Windows: 
-    - guides/windows/index.md
+    # - guides/windows/index.md
     - Установка Винды: guides/windows/install.md
     - Скачать Windows/Office: guides/windows/download_iso.md
-    - Активировать: guides/windows/activation.md
+    - Активировать: guides/windows/activation.md  
     - Оптимизация: 
       - Базовая оптимизация: guides/windows/optimization.md
       - Файл автоответов: guides/windows/autounattend.md
 
   - Гайды:
     # - guides/hacks/index.md
-    - Правильный AdBlock в браузерах: guides/hacks/adblock.md
+    - Сеть:
+      - Правильный AdBlock в браузерах: guides/hacks/adblock.md
 
   - Программы:
     # - guides/software/index.md
-    - Топ-10 полезных:
-      - Rufus: guides/software/top10/rufus.md
+    - На ПК:
+      - Rufus: guides/software/pc/rufus.md
+      - PeaZip: guides/software/pc/peazip.md
+      - PotPlayer: guides/software/pc/potplayer.md
+    - На Андроид:
+      - ByeByeDPI: guides/software/android/byebyedpi.md
 
 
 plugins:
@@ -89,6 +94,13 @@ plugins:
   - tags
   - glightbox
   - meta
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+          remove_comments: true
+      cache_safe: true
   
 
 markdown_extensions:
